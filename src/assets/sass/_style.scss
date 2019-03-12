@@ -1,0 +1,19 @@
+
+small {
+    font-size: 0.8rem;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 3px #000;
+}
+
+.background-cover {
+    background-color: #666;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

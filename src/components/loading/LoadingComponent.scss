@@ -1,0 +1,17 @@
+.loading {
+    height: 280px;
+
+    .text {
+        animation: an-opacity 250ms alternate infinite;
+
+        @keyframes an-opacity {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: .2;
+            }
+        }
+    }
+}

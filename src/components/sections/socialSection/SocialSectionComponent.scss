@@ -1,0 +1,27 @@
+.social {
+    font-size: 2rem;
+
+    .facebook {
+        color: #4267b2;
+
+        &:hover {
+            color: #6287d2;
+        }
+    }
+
+    .github {
+        color: #444;
+
+        &:hover {
+            color: #666;
+        }
+    }
+
+    .linkedin {
+        color: #0077b5;
+
+        &:hover {
+            color: #0088c5;
+        }
+    }
+}
