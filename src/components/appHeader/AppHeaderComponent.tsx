@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import './HeaderComponent.scss';
+import './AppHeaderComponent.scss';
 
-import NavigationComponent from '../navigation/NavigationComponent';
-import INavigationComponentItems from '../navigation/INavigationComponentItems';
+import INavigationComponentItems from '../share/navigation/INavigationComponentItems';
+import NavigationComponent from '../share/navigation/NavigationComponent';
 
-class HeaderComponent extends Component {
+class AppHeaderComponent extends Component {
 
     menu: INavigationComponentItems[] = [
         {
@@ -51,4 +51,4 @@ class HeaderComponent extends Component {
     }
 }
 
-export default HeaderComponent;
+export default AppHeaderComponent;

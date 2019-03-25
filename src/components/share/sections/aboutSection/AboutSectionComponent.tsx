@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ReactLogo from '../../../assets/react.png'
+import ReactLogo from '../../../../assets/react.png'
 
 import BaseSectionComponent from '../baseSection/BaseSectionComponent';
 

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
-import ArticleService from '../../domain/article/ArticleService';
 import IPageState from './IPageState';
 import IPageProps from './IPageProps';
-import { Loading } from '../../components/loading/Loading';
-import LoadingComponent from '../../components/loading/LoadingComponent';
+import ArticleService from '../../../domain/article/ArticleService';
+import { Loading } from '../../share/loading/Loading';
+import LoadingComponent from '../../share/loading/LoadingComponent';
+
 
 class Page extends Component<IPageProps, IPageState> {
     state: IPageState;

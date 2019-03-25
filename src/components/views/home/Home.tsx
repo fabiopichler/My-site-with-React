@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import ArticleComponent from '../../components/article/ArticleComponent';
-import ArticleService from '../../domain/article/ArticleService';
 import IHomeState from './IHomeState';
-import { Loading } from '../../components/loading/Loading';
-import LoadingComponent from '../../components/loading/LoadingComponent';
+import ArticleService from '../../../domain/article/ArticleService';
+import { Loading } from '../../share/loading/Loading';
+import LoadingComponent from '../../share/loading/LoadingComponent';
+import ArticleComponent from '../../share/article/ArticleComponent';
 
 class Home extends Component<{}, IHomeState> {
     service!: ArticleService;

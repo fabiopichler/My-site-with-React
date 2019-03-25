@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-import ArticleComponent from '../../components/article/ArticleComponent';
-import ArticleService from '../../domain/article/ArticleService';
 import IPostState from './IPostState';
 import IPostProps from './IPostProps';
-import { Loading } from '../../components/loading/Loading';
-import LoadingComponent from '../../components/loading/LoadingComponent';
+import ArticleService from '../../../domain/article/ArticleService';
+import { Loading } from '../../share/loading/Loading';
+import LoadingComponent from '../../share/loading/LoadingComponent';
+import ArticleComponent from '../../share/article/ArticleComponent';
+
 
 class Post extends Component<IPostProps, IPostState> {
     state: IPostState;
