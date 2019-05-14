@@ -17,7 +17,7 @@ export default class ArticleService {
         } catch (err) {
             this.error();
 
-            throw "";
+            throw new Error();
         }
     }
 
@@ -33,7 +33,7 @@ export default class ArticleService {
         } catch (err) {
             this.error();
 
-            throw "";
+            throw new Error();
         }
     }
 

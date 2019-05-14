@@ -1,3 +1,5 @@
 # My site with React
 
-Live demo: http://software.fabiopichler.net/sites/my-site-with-react/
+Website simples, desenvolvido com React.
+
+Live demo: https://projects.fabiopichler.net/my-site/react/

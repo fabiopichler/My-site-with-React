@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import './assets/sass/app.scss';
 
-import AppComponent from './components/AppComponent';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import ScrollToTop from './ScrollToTop';
 
@@ -15,7 +15,7 @@ axios.defaults.baseURL = 'http://basic-api.fabiopichler.net/';
 ReactDOM.render(
     <BrowserRouter>
         <ScrollToTop>
-            <AppComponent />
+            <App />
         </ScrollToTop>
     </BrowserRouter>,
     document.getElementById('root'));
